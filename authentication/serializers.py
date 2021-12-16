@@ -1,5 +1,3 @@
-from logging import exception
-from django.db.models import fields
 from rest_framework import serializers
 from authentication.models import User
 from django.contrib.auth import authenticate
