@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'authentication.apps.AuthenticationConfig',
     'drf_yasg',
+    'django.contrib.staticfiles',
     'expenses.apps.ExpensesConfig',
     'income.apps.IncomeConfig',
     'corsheaders',
